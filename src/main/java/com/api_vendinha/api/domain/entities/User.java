@@ -34,4 +34,10 @@ public class User {
      */
     @Column(nullable = false) // Especifica que a coluna no banco de dados não pode ser nula.
     private String name;
+
+    @Column(name = "email")
+    private String email;
+
+    @Column(name = "cpf_cnpj")
+    private String cpf_cnpj;
 }
